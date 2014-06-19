@@ -14,7 +14,6 @@
 		4D349AD219538FD200203B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349AD119538FD200203B35 /* main.m */; };
 		4D349AD619538FD200203B35 /* DBJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349AD519538FD200203B35 /* DBJAppDelegate.m */; };
 		4D349AD919538FD200203B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D349AD719538FD200203B35 /* Main.storyboard */; };
-		4D349ADC19538FD200203B35 /* DBJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349ADB19538FD200203B35 /* DBJViewController.m */; };
 		4D349ADE19538FD200203B35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D349ADD19538FD200203B35 /* Images.xcassets */; };
 		4D349AE519538FD200203B35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D349AE419538FD200203B35 /* XCTest.framework */; };
 		4D349AE619538FD200203B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D349AC519538FD200203B35 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		4D349AD419538FD200203B35 /* DBJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBJAppDelegate.h; sourceTree = "<group>"; };
 		4D349AD519538FD200203B35 /* DBJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBJAppDelegate.m; sourceTree = "<group>"; };
 		4D349AD819538FD200203B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D349ADA19538FD200203B35 /* DBJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBJViewController.h; sourceTree = "<group>"; };
-		4D349ADB19538FD200203B35 /* DBJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBJViewController.m; sourceTree = "<group>"; };
 		4D349ADD19538FD200203B35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D349AE319538FD200203B35 /* UITableViewProblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewProblemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D349AE419538FD200203B35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				4D349AD419538FD200203B35 /* DBJAppDelegate.h */,
 				4D349AD519538FD200203B35 /* DBJAppDelegate.m */,
 				4D349AD719538FD200203B35 /* Main.storyboard */,
-				4D349ADA19538FD200203B35 /* DBJViewController.h */,
-				4D349ADB19538FD200203B35 /* DBJViewController.m */,
 				4D349ADD19538FD200203B35 /* Images.xcassets */,
 				4D349ACC19538FD200203B35 /* Supporting Files */,
 			);
@@ -251,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D349AD219538FD200203B35 /* main.m in Sources */,
-				4D349ADC19538FD200203B35 /* DBJViewController.m in Sources */,
 				4D349AD619538FD200203B35 /* DBJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
