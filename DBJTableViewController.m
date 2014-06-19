@@ -67,7 +67,13 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     cell.textLabel.text = @"Cell";
     // Configure the cell...
-    
+    if(indexPath.section == 0){
+        cell.textLabel.text = @"I am in section 0";
+    }else if(indexPath.section == 1){
+        cell.textLabel.text = @"I am in another section";
+    }else if(indexPath.section == 2){
+        cell.textLabel.text = [NSString stringWithFormat:@"Cell %i",indexPath.row];
+    }
     return cell;
 }
 
