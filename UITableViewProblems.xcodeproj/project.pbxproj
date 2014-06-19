@@ -20,6 +20,7 @@
 		4D349AE719538FD200203B35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D349AC919538FD200203B35 /* UIKit.framework */; };
 		4D349AEF19538FD200203B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D349AED19538FD200203B35 /* InfoPlist.strings */; };
 		4D349AF119538FD200203B35 /* UITableViewProblemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349AF019538FD200203B35 /* UITableViewProblemsTests.m */; };
+		4D349AFC1953913700203B35 /* DBJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349AFB1953913700203B35 /* DBJTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		4D349AEC19538FD200203B35 /* UITableViewProblemsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewProblemsTests-Info.plist"; sourceTree = "<group>"; };
 		4D349AEE19538FD200203B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D349AF019538FD200203B35 /* UITableViewProblemsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewProblemsTests.m; sourceTree = "<group>"; };
+		4D349AFA1953913700203B35 /* DBJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBJTableViewController.h; path = ../DBJTableViewController.h; sourceTree = "<group>"; };
+		4D349AFB1953913700203B35 /* DBJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBJTableViewController.m; path = ../DBJTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		4D349ACB19538FD200203B35 /* UITableViewProblems */ = {
 			isa = PBXGroup;
 			children = (
+				4D349AFA1953913700203B35 /* DBJTableViewController.h */,
+				4D349AFB1953913700203B35 /* DBJTableViewController.m */,
 				4D349AD419538FD200203B35 /* DBJAppDelegate.h */,
 				4D349AD519538FD200203B35 /* DBJAppDelegate.m */,
 				4D349AD719538FD200203B35 /* Main.storyboard */,
@@ -247,6 +252,7 @@
 			files = (
 				4D349AD219538FD200203B35 /* main.m in Sources */,
 				4D349AD619538FD200203B35 /* DBJAppDelegate.m in Sources */,
+				4D349AFC1953913700203B35 /* DBJTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
